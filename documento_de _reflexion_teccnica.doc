@@ -1,0 +1,51 @@
+* **Qué partes del código fueron sugeridas o apoyadas por IA.**
+  Las constantes de expresiones regulares (regex) utilizadas para la validación de fechas y el formato de las líneas de los logs.
+
+* **Qué partes fueron decisión del estudiante.**
+  Los pasos y el diseño a seguir para encontrar una solución al problema.
+
+* **Un ejemplo concreto donde:**
+
+  **i. La IA sugirió algo incorrecto, incompleto o mejorable.**
+  Encontré algunos errores de lógica en mi solución mientras trabajaba con la IA. Además, utilicé la IA para refinar y mejorar las expresiones regulares utilizadas en la solución.
+
+  **ii. El estudiante lo detectó y lo corrigió.**
+  Revisé las sugerencias proporcionadas por la IA, identifiqué los errores de lógica y realicé las correcciones necesarias para que la solución cumpliera con los requerimientos del problema.
+
+* **Qué aprendió sobre el uso de IA como herramienta y no como reemplazo.**
+  Aprendí que, al construir una solución con el apoyo de la IA, es necesario comprender las respuestas y sugerencias que proporciona la herramienta, en lugar de utilizarlas directamente sin analizarlas. También es importante mantener en todo momento el control sobre el código, tanto para realizar posibles cambios en el futuro como para identificar con claridad las áreas en las que la IA puede brindar apoyo ante nuevas modificaciones o requerimientos.
+
+
+
+Evidencia de pruebas: 
+
+Ingrese la ruta del archivo de logs: C:\Users\geoca\Documents\kodigo\log-summary\test\log-26092026.log
+========== RESUMEN DE ANÁLISIS ==========
+Archivo analizado : log-26092026.log
+Total de eventos  : 3
+-----------------------------------------
+  INFO            : 1
+  WARNING         : 1
+  ERROR           : 1
+-----------------------------------------
+Entradas mal formateadas: 0
+=========================================
+
+Prueba con lineas MALFORMADAS
+========== RESUMEN DE ANÁLISIS ==========
+Archivo analizado : log-26092027.log
+Total de eventos  : 3
+-----------------------------------------
+  INFO            : 1
+  WARNING         : 1
+  ERROR           : 1
+-----------------------------------------
+Entradas mal formateadas: 3
+Descripción de al menos dos archivos de prueba:
+i. Uno bien formado.   Archivo de prueba: test/log-26092026.log
+ii. Uno con errores o inconsistencias.   Archivo de prueba: test/log-2609202.log
+
+Qué resultados se esperaban y cuáles se obtuvieron.
+- En ambos casos se obtuvo lo que se esperaba :
+1) En la primer prueba se esperaba una prueba con lineas bien formadas, y fue lo que se obtuvo.
+2) En la segunda prueba de deformo el archivo para tener las 3 lines malformadas.
